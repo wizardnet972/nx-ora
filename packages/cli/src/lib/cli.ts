@@ -7,7 +7,7 @@ function fibonacci(num) {
 
   return fibonacci(num - 1) + fibonacci(num - 2);
 }
-console.log('in cli!');
+console.log('press command/ctrl+c to exit');
 
 console.log(fibonacci(1990));
 
